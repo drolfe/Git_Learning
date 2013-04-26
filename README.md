@@ -10,3 +10,9 @@ iface eth1 inet static
     dns-nameservers 8.8.8.8 8.8.4.4
 ```
 
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
